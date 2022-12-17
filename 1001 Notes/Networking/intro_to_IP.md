@@ -78,6 +78,7 @@
 #### UDP is real-time communication
 - There's no way to stop and resend the data when you talking 
 - Time doesn't stop for your network
+- ex. VoIP (Voice over IP) uses UDP
 
 #### Connectionless protocols
 - DHCP (Dynamic Host Configuration Protocol)
@@ -129,3 +130,21 @@
 #### Ephermeral ports - (temporary port numbers)
 - Between Ports 1024 - 65535
 - These are determined in real-time by the client (OS)
+
+### Port Numbers
+
+#### TCP and UDP ports can be any number between 0 and 65535
+
+#### Most servers (services) use non-ephemeral (not-temporary) port numbers
+- This isn't always the case
+-   It's just a number
+-   As long as the server knows where that data is supposed to go everything runs smoothly
+
+#### Port numbers are for communication, not security
+- Even if you use a random port, it's very easy to run a port-scaner and find what services are using what port
+- You would also need another service in place to make sure that the right data is going to the right port if everything were random
+- That's why service port numbers need to be "well known"
+
+#### TCP port numbers aren't the same as UDP port numbers 
+- Port 80 on TCP isn't the same as Port 80 on UDP
+- Isn't usually done in normal operation
