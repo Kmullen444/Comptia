@@ -1,5 +1,3 @@
-Laptop Hardware
-
 ### Laptop Hardware
 - Enginerred to percise specifications
 	- Challenging to repair
@@ -9,6 +7,7 @@ Laptop Hardware
 	- Many manufactures may provide information about the laptop and how to repair it
 - Understand the process
 	- The details will vary between laptop manufactures
+
 ### Laptop Batteries
 - The power source when unplugged
 	- May be easily replace or require a teardown of the laptop
@@ -21,6 +20,7 @@ Laptop Hardware
 - Different form factor for each laptop
 	- if you need to replace the battery make sure that it is the one for that laptop
 	- Battery tech is always changing
+			
 ### Laptop Keyboard
 - Most-used component of the laptop
 	- Can be easy to replace
@@ -30,12 +30,15 @@ Laptop Hardware
 	- Not portable but works in a pinch 
 - As they become smaller there isn't as much space for all of the keys
 	- Usually uses layers to get everything on the keyboard
+			
 ### Laptop Keys
 - Some repairds might require the removal or replacement of a keycap
 - Check with the namufacturer's instructions so nothing is damaged
+		- It's very easy to accidentally break the key cap or the componets underneath
+		
 ### Laptop Memory
 - If you need to upgrade the non-permanent memory, you'll probably want to replace it with SO-DIMM 
-- Small Outline Dual In-line Memory Module
+#### Small Outline Dual In-line Memory Module (SO-DIMM)
 - Memory used in laptops and moblie devices
 	- often easy to install and replace through a window under the laptop (check To Install)
 - Some memory is soldered to the system board
@@ -45,6 +48,7 @@ Laptop Hardware
 	- Open back or "window"
 	- place it in the correct spot
 	- push it in and then down
+			
 ### Laptop Storage
 - Magnetic Disk
 	- Traditional spinning drive platters
@@ -57,6 +61,7 @@ Laptop Hardware
 	- Smaller form factor
 	- No SATA data ro power cables (Magnetic Drives and SSDs have these)
 	- Easy to install
+			
 ### Replacing Laptop Storage
 - All Internal
 	- Open a cover on the back
@@ -69,11 +74,12 @@ Laptop Hardware
 - M.2 drives are even easer
 	- One screw
 	- Similar to RAM installation 
+			
 ### Migration from HDD to SSD
 - Impressive upgrade
 	- Move from spinning mechanical drive to solid state memory
 	- It's almost like getting a new laptop
-- Insal an OS on the SSB
+- Install an OS on the SSD
 	- Move user documents between drives
 	- Install any required applications
 	- Can be time consuming
@@ -90,7 +96,8 @@ Laptop Hardware
 	- Image directly form one drive to the other
 		- Taking everything from one system and sector by sector copying the data to the new system
 		- Requires either 2 sperate systems or a system that can have multiple drives at once
-###  802.11 wireless and Bluetooth
+				
+### 802.11 wireless and Bluetooth
 - Wireless network connectivity
 	- Connect without wires
 - 802.11
@@ -108,11 +115,13 @@ Laptop Hardware
 	-  Connect peripherals an othe nearby devices
 -  WWAN (Wireless Wide Area Network) 
 	- Allow you to connect to celluar services 
+
 ### Biometrics (relatively secure)
 -	Sign in or unluck your laptop with a fingerprint reader or face recognition
 -	Requires additional configuration in the OS
 	-	Hardware required for most options
 		-	Webcam or fingerprint reader
+
 ### Near-field communication (NFC)
 - Short-distance networking
 	- 4 centimeters or less
