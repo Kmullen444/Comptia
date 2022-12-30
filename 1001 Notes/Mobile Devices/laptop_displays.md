@@ -54,7 +54,7 @@
 - Wifi main and Aux
 - Bluetooth
 
-#### Antenna wires wrap around teh laptop screen
+#### Antenna wires wrap around the laptop screen
 - When replacing a screen you need to make sure that the they follow the same path <br> the previous wires too
 
 

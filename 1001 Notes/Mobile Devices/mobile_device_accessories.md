@@ -59,7 +59,7 @@
 #### Wireless
 - Bluetooth connections
 
-### Speakers
+### Speakers (Exteral)
 
 #### Mobile audio
 - Usually battery powered
@@ -93,4 +93,4 @@
 - Similar to a docking station
 - Does not commonly have expansion card option
 - Usually connects using USB
-- Does help with cable issue
+- Does help with cable issue but doesn't add the funcionality that you would get from a docking station

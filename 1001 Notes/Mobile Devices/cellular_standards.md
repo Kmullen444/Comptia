@@ -43,7 +43,7 @@
 
 ### 3G Technology
 
-#### 3rg Generation
+#### 3rd Generation
 - Inroducded in 1998
 
 #### Upgraded data connectitity over 2G
@@ -88,8 +88,8 @@
 #### PRL updates
 - Preferred Roaming list
 		- Allows your phone to be conntected to the right tower
-- Can be updated over the air (OTA)
-- CDMA networks (ie. Verizon, Sprint)
+			- Can be updated over the air (OTA)
+			- CDMA networks (ie. Verizon, Sprint)
 
 ### Hotspot
 
