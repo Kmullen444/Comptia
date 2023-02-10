@@ -1,0 +1,30 @@
+### TCP
+
+FTP (File Transfer Protocol):
+  active mode data (data transfer): tcp/20
+  control (control data transfers): tcp/21
+SSH (Secure Shell): tcp/22
+Telnet: tcp/23
+SMTP (Simple Mail Transfer Protocol): tcp/25
+Http (Hypertext Transfer Protocol): tcp/80
+HTTPS (Hypertext Transfer Protocol Secure): tcp/443
+POP3 (Post Office Protocol): tcp/110
+IMAP4 (Internet Message Access Protocol): tcp/143
+SMB (Sever Message Block): 
+  Older version:
+    tcp/139: NetBIOS session services (nbsession) - sets up the services that allow the transfer of data between devices
+    udp/137: NetBIOS name services (nbname) - find devices on your network by the name
+  Newer version:
+    tcp/445: direct conntection (NetBIOS-less)
+LDAP (Lightweight Directory Access Protocol): tcp/389
+RDP (Remote Desktop Protocol): tcp/3389
+
+### UDP
+
+DNS (Domain Name System): udp/53
+DHCP (Dynamic Host Configuration Protocol): udp/67, udp/68
+- udp/67 - broadcast during discover and request
+- udp/68 -broadcast during offer and acknowledge
+SNMP (Simple Network Management Protocol): 
+  Queries: udp/161
+  Traps: udp/162

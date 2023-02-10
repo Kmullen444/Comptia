@@ -63,7 +63,7 @@
 
 #### First to use the Wi-Fi standard naming system
 
-#### Operates at 5 GHz and/or 2.4 GHz if your router supports both
+#### Operates at 5 GHz and/or 2.4 GHz if acess point supports both
 - 40 MHz channel width (more data can be transfered)
 
 #### 600 magabits per second (Mbit/s)
@@ -80,9 +80,6 @@
 
 #### Operates in the 5 GHz band
 - Less crowded, more frequencies (up to 160 MHz channel bandwidth)
-- If your devices has 5 GHz and 2.4 GHz capabilities 
--   5 GHz is running on 802.11ac
--   2.4 GHz is running on 802.11n
 
 #### Increased channel bonding
 - Larger bandwidth usage

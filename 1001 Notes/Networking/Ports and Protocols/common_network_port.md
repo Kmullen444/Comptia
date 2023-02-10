@@ -14,19 +14,20 @@
 
 ### FTP - File Transfer Protocol
 
-#### tcp/20 (active mode data), tcp/21 (control)
+#### tcp/20 (active mode data (data tranfers)), tcp/21 (control (control data tranfers))
 - Allows transfer of files between systems
 
 #### Authenticates with a username and password
 - Some systems use a generic/anonymous login
 
 #### Full-featured functionality
-- Allows things like List, add, delete, etc.
+- Allows things like List, add, delete, or other file managament functions 
 
 ### SSH - Secure Shell
 
 #### Encryted communication link - tcp/22
 - Usually through a terminal and uses a text based interface
+-   We see a text based UI the data being sent between the systems is Encrypted
 
 #### Looks and acts the same as Telnet (see below)
 
@@ -110,7 +111,7 @@
 
 #### Older Windows systems will use NetBIOS over TCP/IP (Network Basic Input/Output System)
 - udp/137 - NetBIOS name services (nbname) - find devices on your network by the name
-- tcp/139 - NetBIOS session services (nbsession)
+- tcp/139 - NetBIOS session services (nbsession) - sets up the services that allow the transfer of data between devices
 
 #### Newer Windows systems will connect direct over tcp/445 (NetBIOS-less)
 - Direct SMB Commmunication over TCP with the NetBIOS transport
@@ -120,7 +121,7 @@
 #### Gather statistics from network devices
 - Queries: upd/161
 - Traps: upd/162 
--   Traps allow
+-   Traps allow for SNMP to monitor the network for a set metric and if that metric is exceeded then an alert is set out
 
 #### When you use SNMP it will ask you what version you're running
 

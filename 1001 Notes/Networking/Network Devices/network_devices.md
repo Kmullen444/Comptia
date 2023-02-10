@@ -11,7 +11,7 @@
 
 ### Router
 - Connects multiple switches and their respective networks to form an even larger networks
--   Allow networked devices and mulitple users to access the Internet
+-   Allow networked devices and multiple users to access the Internet
 
 #### Routers traffic between IP subnets
 - Making forwarding decisions based on the IP address within the packet
@@ -20,7 +20,7 @@
 
 #### Often connects diverse network types
 - LAN (Local Access Network), WAN (Wide Area Network), copper, fiber
-- Chooses the most efficient roue for data, in the form of sata packets to travel across the network
+- Chooses the most efficient route for data, in the form of sata packets to travel across the network
 
 ### Switches
 - Allow devices to share information and talk to each other regardless of there are in a building or campus
@@ -37,7 +37,7 @@
 - These switches provide many features with some providing Power over Ethernet (PoE)
 
 #### If a switch contains a router there are called Multilayer switches or "layer 3 switches"
-- Incluedes routing funcitonality
+- Includes routing functionality
 
 ### Unmanaged switches
 
@@ -45,12 +45,12 @@
 - They work through plug and play
 
 #### Fixed configuration
-- no VLANs
+- No VLANs
 - Not much you can change on them
 
 #### Very little integration with other devices
 - Since they are very simple there are no management protocols 
--   Can't use SNMP to quere the switch for errors or for proformance
+-   Can't use SNMP to queue the switch for errors or for performance
 
 #### Low price point
 - Since they are simple they are less expensive than something with more features
@@ -60,7 +60,7 @@
 #### Come with VLAN support (Virtual Local Area Network)
 - Interconnect with other switches via 802.1Q
 
-#### Traffic priortization
+#### Traffic prioritization
 - Allow for certain traffic to have priority on the network
 -   Voice traffic gets a higher priority
 
@@ -73,7 +73,7 @@
 - This allows for the capture of packets to monitor the network and troubleshooting
 
 #### External Management
-- Can use SImple Network Management Protocol (SNMP)
+- Can use Simple Network Management Protocol (SNMP)
 
 ### Access point
 
@@ -85,7 +85,7 @@
 - Extends the wired Network onto the wireless network
 - Similar to switches Access points make forwarding decisions based on MAC addresses
 
-### Cable infurstructor
+### Cable infrastructure
 
 #### Every desk has a cable
 - These cables are usually permanent and connect to a patch panel
@@ -99,7 +99,7 @@
 
 #### Patch panel to switch can be easily changed
 - No special tools
-- Use exisiting cables
+- Use existing cables
 
 ### Firewalls
 
@@ -111,7 +111,7 @@
 - Protect our traffic between sites
 
 #### Can proxy traffic 
-- A common secuirty technique
+- A common security technique
 
 #### Most firewalls can be layer 3 devices (routers)
 - Usually sits on the ingress (incoming)/egress (out going) of the network
@@ -138,7 +138,7 @@
 #### PoE: IEEE 802.3af-2003
 - The original PoE specification
 - Now part of the 802.3 standard
-- Provides 15.4 watts DC pwer, 350 mA max current
+- Provides 15.4 watts DC power, 350 mA max current
 
 #### PoE+: IEEE 802.3at-2009
 - Now also part of the 802.3 standard
@@ -158,7 +158,7 @@
 
 #### Becomes less efficient as network traffic increases
 
-#### Only available in 10 magebit/ 100 megabit
+#### Only available in 10 megabit/ 100 megabit
 
 #### Difficult to find today
 
@@ -170,7 +170,7 @@
 
 #### Data on the "cable" network
 - Uses DOCSIS standard
--   Data Over Cable Service Interface Specification)
+-   Data Over Cable Service Interface Specification
 
 #### High-speed networking
 - Speeds up to 1 Gigabit/s are available
@@ -186,7 +186,7 @@
 #### Download speed is faster than the upload speed (asymmetric)
 - Usually have about 10,000 foot limitation from the central office (CO)
 - 52 Mbit/s downsteam to 15Mbit/s upsteam are common speeds
-- Faster speeds may be possible if closer ot the CO
+- Faster speeds may be possible if closer to the CO
 
 ### ONT 
 
@@ -200,7 +200,7 @@
 - The terminal box might be on the side of the building 
 
 #### Line of responsibility
-- Anything on one sie for the box the ISP is responsible for
+- Anything on one side for the box the ISP is responsible for
 - On the other side you are (your network)
 
 ### Network Interface Card (NIC)

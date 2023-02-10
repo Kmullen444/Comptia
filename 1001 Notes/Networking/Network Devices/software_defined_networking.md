@@ -5,7 +5,7 @@
 #### Networking devices have different functional planes of operation
 - Data, control, and management planes
 
-#### Splitthe functions into seperate logical units
+#### Split the functions into seperate logical units
 - Extend the functionality and management of a single device
 - Perfectly built for the cloud
 
@@ -23,5 +23,3 @@
 #### Application layer/Management plane
 - Configure and manage the device
 - SSH, browser, API (Application Programming Interface) are ex. of this layer
-
-

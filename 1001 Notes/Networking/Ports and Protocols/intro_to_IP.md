@@ -41,7 +41,7 @@
 #### These are two ways to move data from place to place
 - Differeent features for different applications
 
-#### Sometimes refered to as being on the OSI Layer 4 of the IP protocol
+#### Sometimes refered to as being on the OSI Layer 4 of the OSI model
 - The transport layer
 
 #### Multiplexing
@@ -65,10 +65,12 @@
 
 #### Connectionless
 - Unlike TCP there is no formal process to open or close the connection
+- Simply sends data from one point to the other
 
 #### "Unreliable" Delivery
 - No verifaction system to assuse the data that was sent has been received
 - No reordering of data or retransmissions
+- No error recovery
 
 #### No flow control
 - The sender determnes the amount and speed of the data that is transmitted
